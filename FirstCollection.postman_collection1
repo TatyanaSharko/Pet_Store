@@ -230,7 +230,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://petstore.swagger.io/v2/pet/11459",
+							"raw": "https://petstore.swagger.io/v2/pet/{{pet_id}}",
 							"protocol": "https",
 							"host": [
 								"petstore",
@@ -240,7 +240,7 @@
 							"path": [
 								"v2",
 								"pet",
-								"11459"
+								"{{pet_id}}"
 							]
 						}
 					},
@@ -265,7 +265,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://petstore.swagger.io/v2/pet/11459",
+							"raw": "https://petstore.swagger.io/v2/pet/{{pet_id}}",
 							"protocol": "https",
 							"host": [
 								"petstore",
@@ -275,7 +275,7 @@
 							"path": [
 								"v2",
 								"pet",
-								"11459"
+								"{{pet_id}}"
 							]
 						}
 					},
